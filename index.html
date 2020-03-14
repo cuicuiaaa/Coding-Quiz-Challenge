@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+
+        <title>Coding Quiz Challenge</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+    </head>
+    <body>
+        <p id="timer"></p>
+        <section id="start-page">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Try to answer the following code-related quesitons within the time limit. Keep in mind that incorrect answers will penalise your time by ten seconds.</p>
+            <button type="button" class="btn btn-warning" id="start-button">Start</button>
+        </section>
+        <section id="first-question" class="hidden">
+            <h2>______ JavaScript is also called client-side JavaScript.</h2>
+            <br>
+            <button type="button" class="btn btn-warning q1 wrong-answer">A.  Microsoft</button>
+            <br>
+            <button type="button" class="btn btn-warning q1 right-answer">B.  Navigator</button>
+            <br>
+            <button type="button" class="btn btn-warning q1 wrong-answer">C.  LiveWire</button>
+            <br>
+            <button type="button" class="btn btn-warning q1 wrong-answer">D.  Native</button>
+        </section>
+        <section id="second-question" class="hidden">
+            <h2>Which of the following are capabilities of functions in JavaScript?</h2>
+            <br>
+            <button type="button" class="btn btn-warning q2 wrong-answer">A.  Return a value</button>
+            <br>
+            <button type="button" class="btn btn-warning q2 wrong-answer">B.  Accept parameters and Return a value</button>
+            <br>
+            <button type="button" class="btn btn-warning q2 right-answer">C.  Accept parameters</button>
+            <br>
+            <button type="button" class="btn btn-warning q2 wrong-answer">D.  None of the above</button>
+        </section>
+        <section id="third-question" class="hidden">
+            <h2>Which of the following is not considered a JavaScript operator?</h2>
+            <br>
+            <button type="button" class="btn btn-warning q3 wrong-answer">A.  new</button>
+            <br>
+            <button type="button" class="btn btn-warning q3 right-answer">B.  this</button>
+            <br>
+            <button type="button" class="btn btn-warning q3 wrong-answer">C.  delete</button>
+            <br>
+            <button type="button" class="btn btn-warning q3 wrong-answer">D.  typeof</button>
+        </section>
+        <section id="fourth-question" class="hidden">
+            <h2>Using _______ statement is how you test for a specific condition.</h2>
+            <br>
+            <button type="button" class="btn btn-warning q4 wrong-answer">A.  Select</button>
+            <br>
+            <button type="button" class="btn btn-warning q4 right-answer">B.  If</button>
+            <br>
+            <button type="button" class="btn btn-warning q4 wrong-answer">C.  Switch</button>
+            <br>
+            <button type="button" class="btn btn-warning q4 wrong-answer">D.  For</button>
+        </section>
+        <section id="fifth-question" class="hidden">
+            <h2>Why so JavaScript and Java have similar name?</h2>
+            <br>
+            <button type="button" class="btn btn-warning q5 wrong-answer">A.  JavaScript is a stripped-down version of Java</button>
+            <br>
+            <button type="button" class="btn btn-warning q5 right-answer">B.  JavaScript's syntax is loosely based on Java's</button>
+            <br>
+            <button type="button" class="btn btn-warning q5 wrong-answer">C.  They both originated on the island of Java</button>
+            <br>
+            <button type="button" class="btn btn-warning q5 wrong-answer">D.  None of the above</button>
+        </section>
+        <section id="end-page" class="hidden">
+            <h2>All done!</h2>
+            <p>Your final score is <span id="score"></span>.</p>
+            <form class="form-inline">
+                <div class="form-group mx-sm-3 mb-2">
+                  <label>Enter initials:</label>
+                  <input class="form-control" id="initial-input">
+                </div>
+                <button type="button" class="btn btn-primary" id="submit-button">submit</button>
+            </form>
+        </section>
+        <section id="highscores-page" class="hidden">
+            <h2>Highscores</h2>
+            <br>
+            <div id="highscores"></div>
+            <br>
+            <button type="button" class="btn btn-warning" id="goback-button">Go Back</button>
+            <button type="button" class="btn btn-warning" id="clear-button">Clear Highscores</button>
+        </section>
+
+        <script type="text/javascript" src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>

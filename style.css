@@ -1,0 +1,29 @@
+.hidden {
+    display: none;
+}
+
+section {
+    text-align: center;
+    width: 800px;
+    margin: 100px auto;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
+
+#initial-input {
+    margin-left: 10px;
+}
+
+#timer {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    section {
+        width: 100%;
+    }
+  }
