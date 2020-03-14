@@ -18,4 +18,4 @@ When the quiz is finished, whether when all questions are answered or the time r
 <img width="563" alt="Screen Shot 2020-03-14 at 8 54 52 pm" src="https://user-images.githubusercontent.com/59434943/76679717-a4f4df80-6636-11ea-9795-33752b7516c7.png">
 <img width="1776" alt="Screen Shot 2020-03-14 at 8 54 41 pm" src="https://user-images.githubusercontent.com/59434943/76679718-a6260c80-6636-11ea-8abd-d84353faa537.png">
 
-Web Link: 
+Web Link: https://cuicuiaaa.github.io/Coding-Quiz-Challenge/
